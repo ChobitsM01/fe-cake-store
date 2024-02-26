@@ -1,0 +1,15 @@
+body {
+  background-color: #edf7fe !important;
+
+  a,
+  .clickable,
+  .btn,
+  button {
+    text-decoration: none;
+    cursor         : pointer;
+  }
+
+  input {
+    outline: none;
+  }
+}

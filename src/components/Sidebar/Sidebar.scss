@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #fff;
+  height          : calc(100vh - 100px);
+  margin          : 12px;
+  border-radius   : 10px;
+  width           : 252px;
+
+  a {
+    text-decoration: none;
+    color          : #333;
+    font-weight    : 500;
+    font-size      : 16px;
+    line-height    : 42px;
+    padding        : 0 12px;
+    margin         : 0 12px;
+    border-radius  : 12px;
+  }
+
+
+  .menu-item-link {
+    a.active {
+      color           : #fff !important;
+      background-color: #0d99ff;
+    }
+  }
+}

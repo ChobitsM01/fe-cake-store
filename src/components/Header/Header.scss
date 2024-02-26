@@ -1,0 +1,122 @@
+.header {
+
+
+  .header--top {
+    height          : 100px;
+    background-image: linear-gradient(0, #70c2ee, #1674ff);
+
+    .header--logo {
+      cursor: pointer;
+
+      .header--logo__img {
+        height       : 60px;
+        width        : 60px;
+        border-radius: 50%;
+      }
+    }
+
+    .search-container {
+      margin-left: 200px;
+      flex       : 1;
+      padding    : 40px;
+
+      .search-box {
+        position: relative;
+
+        .search-icon {
+          height: 30px;
+          width : 30px;
+          margin: auto 8px;
+        }
+
+        .search-input {
+          background-color: #fff;
+          border-radius   : 6px;
+          width           : 100%;
+          height          : 40px;
+          border          : none;
+          outline         : none;
+          text-indent     : 20px;
+        }
+
+        .search__btn {
+          width                     : 80px;
+          border                    : none;
+          outline                   : none;
+          background-color          : #eee;
+          border-top-right-radius   : 6px;
+          border-bottom-right-radius: 6px;
+          color                     : #fff;
+          position                  : absolute;
+          right                     : 0;
+          left                      : 100;
+          top                       : 0;
+          bottom                    : 0;
+        }
+      }
+
+    }
+
+    .user-container {
+      position: relative;
+      width   : 200px;
+
+      .account-icon {
+        font-size    : 36px;
+        padding      : 0 16px;
+        margin-bottom: 8px;
+      }
+
+      .menu-user {
+        position: absolute;
+        top     : 54px;
+        left    : 12px;
+      }
+    }
+
+
+
+    .menu-user {
+      border-radius: 6px;
+
+
+    }
+
+    .cart-container {
+      position: relative;
+
+      .cart-icon {
+        height: 24px;
+        width : 40px;
+      }
+
+      .cart-quantity {
+        position        : absolute;
+        top             : -5px;
+        right           : 2px;
+        background-color: red;
+        color           : #fff;
+        padding         : 0px 2px;
+        border-radius   : 40%;
+        font-size       : 12px;
+        font-weight     : bold;
+      }
+    }
+  }
+
+  .header--bot {
+    .header--nav {
+      a {
+        text-decoration: none;
+        color          : #333;
+        display        : block;
+        padding        : 8px 20px;
+
+        &.active {
+          border-bottom: 3px solid #0062ff;
+          font-weight  : bold;
+        }
+      }
+    }
+  }
+}
